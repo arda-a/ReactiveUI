@@ -6,13 +6,14 @@
     <RootNamespace>ReactiveUI</RootNamespace>
     <Description>A MVVM framework that integrates with the Reactive Extensions for .NET to create elegant, testable User Interfaces that run on any mobile or desktop platform. Supports Xamarin.iOS, Xamarin.Android, Xamarin.Mac, Xamarin Forms, WPF, Windows Forms, Windows Phone 8.1, Windows Store and Universal Windows Platform (UWP).</Description>
     <PackageId>ReactiveUI</PackageId>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Platforms\**\*.cs" />
     <None Include="Platforms\**\*.cs" />
     <PackageReference Include="System.Reactive" Version="4.1.5" />
-    <PackageReference Include="Splat" Version="7.*" />
+    <PackageReference Include="Splat" Version="8.*" />
     <PackageReference Include="DynamicData" Version="6.*" />
   </ItemGroup>
 
